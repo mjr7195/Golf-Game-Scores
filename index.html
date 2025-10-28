@@ -125,8 +125,8 @@
             const nameInput = document.getElementById('player-name-input');
             const name = nameInput.value.trim();
             if (name && !players.some(p => p.name === name)) {
-                if (players.length >= 6) {
-                    alert("Maximum of 6 players allowed.");
+                    if (players.length >= 4) {
+                        alert("Maximum of 4 players allowed.");
                     return;
                 }
                 players.push({ name: name, scores: Array(numHoles).fill(null) });
@@ -138,6 +138,8 @@
                 alert("Player with this name already exists.");
             }
         }
+
+    // ...existing code...
 
         function removePlayer(index) {
             players.splice(index, 1);
