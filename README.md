@@ -4,7 +4,7 @@ Overview:
 Features: 
     - Choose between a 9-hole or 18-hole game.
     - User is able to set the 'Par' value for each hole.
-    - add up to 6 players per game, each with a name to distinguish each player. 
+    - add up to 4 players per game, each with a name to distinguish each player. 
     - Remove added players at will.
     - Score totals are automatically calculated and displayed as they are entered.
     - clear all scores in current hole.
